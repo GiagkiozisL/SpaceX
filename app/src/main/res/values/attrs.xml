@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AnimationFrameLayout">
+        <attr name="anim_frame_size" format="integer"/>
+        <attr name="anim_background_drawable" format="reference"/>
+        <attr name="anim_inner_padding" format="integer"/>
+        <attr name="auto_start" format="boolean"/>
+        <attr name="anim_type" format="enum">
+            <enum name="rocket" value="0"/>
+            <enum name="corn" value="1"/>
+            <enum name="lemon" value="2"/>
+            <enum name="strawberry" value="3"/>
+        </attr>
+    </declare-styleable>
+</resources>
